@@ -39,7 +39,23 @@
 ### Classes
 
 - << You should have a list of each of your classes with a description >>
+CryptoCurrency:
 
+Represents a cryptocurrency entity, storing information such as name, symbol, price, market capitalization, and 24-hour trading volume.
+Methods include update_price, get_market_cap, and get_volume_24h for modifying and accessing specific data attributes of a cryptocurrency.
+
+CryptoTracker:
+
+Manages a list of CryptoCurrency instances, initializes them, and fetches cryptocurrency prices from an API.
+Controls the tkinter-based display, updating it with fetched cryptocurrency information at regular intervals.
+Includes methods like initialize_currencies, fetch_crypto_prices, create_display, update_display, and continuous_update_and_display.
+
+CryptoTrackerController:
+
+Acts as a higher-level controller managing the interaction between the CryptoTracker and the tkinter display.
+Initializes a tkinter window and the CryptoTracker, starting the continuous display updates.
+
+All of these are our separate classes at the moment from whihc our project is made upon.
 ## ATP
 
 
