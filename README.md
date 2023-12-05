@@ -57,5 +57,37 @@ Initializes a tkinter window and the CryptoTracker, starting the continuous disp
 
 All of these are our separate classes at the moment from whihc our project is made upon.
 ## ATP
+Test 1:  Ticker Price
+Test description: Make sure that the ticker price is displayed after start of program
+Test Step:  1- Run the program
+            2- Allow the window to open 
+            3-Make sure there is a price of stock displayed
+Expected outcome: A price is shown in correspondence with the stock its next to
 
+Test 2:  Stocks
+Test description: Make sure that the Stocks are displayed after start of program
+Test Step:  1- Run the program
+            2- Allow the window to open 
+            3-Make sure the stocks are displayed
+Expected outcome: All Stocks are shown for the user to view
 
+Test 3:  Market Cap evaluation
+Test description: Make sure that the market cap for each stock is displayed after start of program
+Test Step:  1- Run the program
+            2- Allow the window to open 
+            3-Make sure there is a market cap amount displayed
+Expected outcome: A market cap ammount is shown in correspondence with the stock its next to
+
+Test 4:  Stock Voulme
+Test description: Make sure that the stock volume is displayed after start of program
+Test Step:  1- Run the program
+            2- Allow the window to open 
+            3-Make sure there is a stock volume for 24 hours displayed
+Expected outcome: A stock volume is shown in correspondence with the stock its next to
+
+Test 5:  Price Update
+Test description: Make sure that the price for each stock updates each minute the program window is open
+Test Step:  1- Run the program
+            2- Allow the window to open 
+            3-Make sure after a minute has elapsed the price for each stock updates
+Expected outcome: Stock price updates every minute as long as the window is open
