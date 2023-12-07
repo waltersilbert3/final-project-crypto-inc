@@ -63,20 +63,20 @@ class CryptoTracker:
 
     def create_display(self):
         self.root.title("Crypto Price Tracker")
-        self.root.configure(bg="#ADD8E6")  # Set background color
+        self.root.configure(bg="#ADD8E6")  
 
         self.label = tk.Label(self.root, text="", font=("Alegreya", 12), bg="#ADD8E6", justify="left")
         self.label.pack(padx=20, pady=20)
 
-        # Create a dropdown menu for crypto selection
+        
         self.selected_crypto = tk.StringVar(self.root)
-        self.selected_crypto.set("Bitcoin")  # Set default value
+        self.selected_crypto.set("Bitcoin")  
 
         choices = [currency.name for currency in self.crypto_list]
         dropdown = tk.OptionMenu(self.root, self.selected_crypto, *choices)
         dropdown.pack()
 
-        # Button to trigger display update
+        
         update_button = tk.Button(self.root, text="Update", command=self.update_selected_crypto)
         update_button.pack()
 
@@ -97,7 +97,7 @@ class CryptoTracker:
     def continuous_update_and_display(self):
         self.fetch_crypto_prices()
         self.update_display()
-        self.root.after(60000, self.continuous_update_and_display)  # Update every 1 minute (60000 milliseconds)
+        self.root.after(60000, self.continuous_update_and_display)  
 
 
 class CryptoTrackerController:
