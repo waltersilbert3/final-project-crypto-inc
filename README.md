@@ -13,7 +13,7 @@ Fall Semester,2023
 
 ## Project Description
 
- This project will incorporate crypto prices in real time and allow the user to use a button to update the prices in real time. We will possibly use rest API's from cryptocurreny sites that display real time price like Coinbase or Blockchain.com.
+ This project is a cyrpto stock tracker that presents the five most commonly used crypto currencies at the moment. It displays their price which is updated every minute as well as their volume and market cap. In our project, you can view the crypto stocks and even single in on your favorite of the top five we provide. 
 
 ***    
 
@@ -92,3 +92,12 @@ Test Step:  1- Run the program
             2- Allow the window to open 
             3-Make sure after a minute has elapsed the price for each stock updates
 Expected outcome: Stock price updates every minute as long as the window is open
+
+Test 6: Drop Down Menu
+Test description: Make sure that the drop down menu works properly and when one selects the crypto of their choice it pull it up as to be single on the screen
+Test Step:  1- Run the program
+            2- Allow the window to open 
+            3-Make sure after a minute has elapsed the price for each stock updates
+            4- click on drop down menu and select stock
+            5. then press update and see if stock become only one on display
+Expected outcome: The crypto stock selected dispalys on its own with no others in view
