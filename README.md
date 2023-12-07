@@ -2,8 +2,9 @@
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 
 # << Project Title >>
+CoinView
 ## CS110 Final Project  << Semester, Year >>
-
+Fall Semester,2023
 ## Team Members
 
  Kamish Charniya and Walter Silbert 
