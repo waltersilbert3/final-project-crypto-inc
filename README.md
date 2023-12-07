@@ -31,11 +31,11 @@ Fall Semester,2023
 
 ### Features
 
-1. GUI usage
-2. Button usage
-3. Image usage
-4. Pygame usage
-5. << Feature 5 >>
+1. User input
+2. Crypto display
+3. Live minutley update from CoinGecko
+4. Price,market cap and volume of the stock is displayed
+5. Drop down menu, it allows for narrowing in on one crypto
 
 ### Classes
 
