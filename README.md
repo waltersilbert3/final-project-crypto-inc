@@ -42,7 +42,7 @@ Walter Silbert
 
 ### Classes
 
-- << You should have a list of each of your classes with a description >>
+
 CryptoCurrency:
 
 Represents a cryptocurrency entity, storing information such as name, symbol, price, market capitalization, and 24-hour trading volume.
