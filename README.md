@@ -10,13 +10,13 @@ CoinView
 Fall Semester,2023
 ## Team Members
 
- Kamish Charniya and Walter Silbert 
+Walter Silbert 
 
 ***
 
 ## Project Description
 
- This project is a cyrpto stock tracker that presents the five most commonly used crypto currencies at the moment. It displays their price which is updated every minute as well as their volume and market cap. In our project, you can view the crypto stocks and even single in on your favorite of the top five we provide. 
+ This project is a cyrpto stock tracker that presents the five most commonly used crypto currencies at the moment. It displays their price which is updated every minute as well as their volume and market cap. In my project, you can view the crypto stocks and even single in on your favorite of the top five we provide. 
 
 ***    
 
