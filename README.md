@@ -8,7 +8,7 @@
 CoinView
 ## CS110 Final Project  << Semester, Year >>
 Fall Semester,2023
-## Team Members
+## Team Member
 
 Walter Silbert 
 
